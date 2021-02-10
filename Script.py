@@ -9,7 +9,7 @@ import os		#os module (functions for editing directories)
 arcpy.CheckOutExtension("Network")
  
 #Set environment settings
-env.workspace = "C:/data/SanFrancisco.gdb"
+env.workspace = "C:/data/NewPaltz.gdb"
 env.overwriteOutput = True
 #tools will execute and overwrite the output dataset
  
